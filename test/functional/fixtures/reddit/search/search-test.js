@@ -42,7 +42,7 @@ test('should be able to search for topic of interest', async t => {
         .expect(searchResultJoinButton.count).gte(1);
 });
 
-test.only('should display "no results found" message for search term with no hits', async t => {
+test('should display "no results found" message for search term with no hits', async t => {
     const invalidSearchTerm = 'zyck2uasd';
     const searchResultsNotFoundMessage = `Sorry, there were no community results for "${invalidSearchTerm}"`
     await t
