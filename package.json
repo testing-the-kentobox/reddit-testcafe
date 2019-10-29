@@ -1,12 +1,12 @@
 {
   "name": "reddit-testcafe",
   "version": "1.0.0",
-  "description": "",
+  "description": "learning to use testcafe test framework with reddit as test app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "kenneth kenstar",
   "license": "ISC",
   "dependencies": {
     "faker": "^4.1.0",
